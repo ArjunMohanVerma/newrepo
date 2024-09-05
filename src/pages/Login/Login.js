@@ -3,6 +3,8 @@ import "./Login.css";
 import { Link } from "react-router-dom";
 import Nav from "../Navbar/Nav"
 import Footer from "../Footer/Footer"
+import { motion } from "framer-motion";
+
 
 const Login = () => {
   const [details, setDetails] = useState({
@@ -53,9 +55,9 @@ const Login = () => {
             onChange={handleChange} value={details.password}
           />
           <Link to="" className="fp">Forgot Password </Link><br/><br/>
-          <button type="submit" onClick={handleClick} className="buutn">
+          <motion.button type="submit" onClick={handleClick} className="buutn" whileTap={{ scale: 0.85 }}>
             Login
-          </button>
+          </motion.button>
         </div>
       </form><br/>
       <div className="login">

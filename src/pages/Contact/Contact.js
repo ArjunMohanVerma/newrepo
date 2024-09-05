@@ -5,6 +5,7 @@ import emailjs from '@emailjs/browser';
 import "./Contact.css";
 import Nav from "../Navbar/Nav"
 import Footer from "../Footer/Footer"
+import { motion } from "framer-motion";
 
 
 
@@ -100,7 +101,10 @@ export default function Contact(){
               <td><textarea className="txtarea" required onChange={handleChange} name="message" rows="5" cols="25" value={details.message} id="msg" placeholder="Enter Your Message Here" ></textarea></td>
               </tr><br/><br/>
               </table>
-              <input type="submit" value="Send" className="btn"/>
+              <motion.button value="Send" className="btn"
+              whileTap={{ scale: 0.85 }}>
+                  Send
+              </motion.button>
             </form>
        
             
@@ -108,7 +112,7 @@ export default function Contact(){
             </div>
 
 
-        </div><br/>
+        </div><br/><br/>
         </div>
         <Footer/>
 </>

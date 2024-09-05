@@ -3,6 +3,7 @@ import "./Signup.css";
 import { Link } from "react-router-dom";
 import Nav from "../Navbar/Nav"
 import Footer from "../Footer/Footer"
+import { motion } from "framer-motion";
 
 const Signup = () => {
   const [details, setDetails] = useState({
@@ -63,9 +64,9 @@ const Signup = () => {
             required
           /><br/>
          
-          <button type="submit" onClick={handleClick} className="buutn">
+          <motion.button type="submit" onClick={handleClick} className="buutn" whileTap={{ scale: 0.85 }}>
             Sign Up
-          </button>
+          </motion.button>
          
         </div>
       </form>

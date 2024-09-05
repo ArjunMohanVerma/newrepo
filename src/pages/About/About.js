@@ -7,67 +7,7 @@ import VideoCarousel from "../VideoCarousel/VideoCarousel";
 import Nav from "../Navbar/Nav"
 import Footer from "../Footer/Footer"
 
-
-const imageData = [
-  {
-    label: "Image 1",
-    alt: "image1",
-    url:
-    "https://youtu.be/LKVwsdkiJw4?si=rViBTYpBPijeSCTl"
-      
-  },
-  {
-    label: "Image 1",
-    alt: "image1",
-    url:
-    "https://youtu.be/lhnrvhSVjFw?si=KkYEJ3VP1e7Xzv0L"
-      
-  },
-  {
-    label: "Image 1",
-    alt: "image1",
-    url:
-    "https://youtu.be/LKVwsdkiJw4?si=rViBTYpBPijeSCTl"
-      
-  },
-  // {
-  //   label: "Image 2",
-  //   alt: "image2",
-  //   url:
-  //     "https://cdn.thomasnet.com/insights-images/eaf2ea91-c0ca-488d-ab63-af480b6f78cb/750px.png"
-  // },
-  // {
-  //   label: "Image 3",
-  //   alt: "image3",
-  //   url: "https://moneyinc.com/wp-content/uploads/2018/11/Willow-750x500.jpg"
-  // },
-  // {
-  //   label: "Image 4",
-  //   alt: "image4",
-  //   url:
-  //     "https://cdn.thomasnet.com/insights-images/eaf2ea91-c0ca-488d-ab63-af480b6f78cb/750px.png"
-  // }
-];
-
-const renderSlides = imageData.map((image) => (
-  <div key={image.alt}>
-    
-    <ReactPlayer
-      width="560"
-      height="315"
-      url={image.url}
-      
-    />
-          
-    {/* <p className="legend">{image.label}</p> */}
-  </div>
-));
-
 export default function About() {
-  const [currentIndex, setCurrentIndex] = useState();
-  function handleChange(index) {
-    setCurrentIndex(index);
-  }
  return (
  <>
  <Nav/>

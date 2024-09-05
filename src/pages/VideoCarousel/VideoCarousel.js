@@ -15,7 +15,8 @@ const VideoCarousel = () => {
     dots: true,
     infinite: true,
     speed: 700,
-    slidesToShow: 1,
+    marginRight:20,
+    slidesToShow:1,
     slidesToScroll: 1,
     adaptiveHeight: true,
   };

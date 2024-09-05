@@ -1,5 +1,6 @@
 import React from "react";
 import "./Product.css";
+import { motion } from "framer-motion";
 
 export default function Product(props) {
   
@@ -26,7 +27,7 @@ export default function Product(props) {
       <h2 className="hg">{props.name}</h2>
       <p className="desk">{props.description}</p>
       <p>
-        <button id="btn" onClick={handleClick} className="ton">Explore More!</button>
+        <motion.button id="btn" onClick={handleClick} className="ton" whileTap={{ scale: 0.85 }}>Explore More!</motion.button>
       </p>
     </div>
   );
