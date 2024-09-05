@@ -7,10 +7,10 @@ import Footer from "../Footer/Footer"
 const cards = [
   {
     id: 1,
-    title: "Skin Care",
+    title: "Exploring the Latest Innovations in Skincare",
     imageUrl: "https://th.bing.com/th/id/OIP.S5ezL0Eis6PM7tKk9zRkdQHaEK?rs=1&pid=ImgDetMain",
     url: "/details1",
-    text:"Healthy, glowing skin starts with understanding your unique skin type. Knowing your skin type allows you to choose the right products, create an effective skincare routine, and address specific concerns. Whether your skin is oily, dry, combination, sensitive, or normal, each type of care for each one has its own set of characteristics and needs. ",
+    text:"Numerous skincare manufacturers have focused on improving the delivery of active ingredients. Advanced delivery systems, such as nanotechnology and encapsulating techniques, are employed to improve the efficacy of skincare treatments.These techniques guarantee that active chemicals penetrate deeper into the skin and stay effective over time, resulting in better results with regular application. ",
   },
   {
     id: 2,
@@ -46,7 +46,7 @@ const cards = [
   {
     id: 6,
     title: "Unlock the secrets of perfect skincare.",
-    imageUrl: "https://img.freepik.com/free-photo/pensive-beautiful-woman-with-makeup-brush_23-2148113155.jpg?t=st=1725359329~exp=1725362929~hmac=664464b4e1d55760429b26ce1985a445fa6f517f671cf4e2f727b56a38c64cad&w=1380",
+    imageUrl: "https://miro.medium.com/v2/resize:fit:720/format:webp/0*6o5IJ9ogLwgCc6qH",
     url: "/details6",
     text:"Healthy, glowing skin starts with understanding your unique skin type. Knowing your skin type allows you to choose the right products, create an effective skincare routine, and address specific concerns. Whether your skin is oily, dry, combination, sensitive, or normal, each type of care for each one has its own set of characteristics and needs. ",
 
